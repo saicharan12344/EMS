@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(path = "/ems")
 public class MamothController {
-	
+	//dummy commit
 	@GetMapping(path= "/sample", produces = MediaType.ALL_VALUE)
 	public ResponseEntity<String> sampleEndPoint(){
 		return ResponseEntity.status(HttpStatus.OK).body("Working API!");
