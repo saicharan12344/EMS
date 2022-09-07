@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class EmsApplication {
-	//dumy comment added
+	//dumy comment added twice
 	public static void main(String[] args) {
 		SpringApplication.run(EmsApplication.class, args);
 	}
